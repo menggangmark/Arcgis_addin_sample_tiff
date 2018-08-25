@@ -1,0 +1,21 @@
+<ESRI.Configuration xmlns="http://schemas.esri.com/Desktop/AddIns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><Name>Python Addin - mg</Name><AddInID>{bdc0d77f-de60-40c4-a2f7-24838faf3067}</AddInID><Description>New Addin</Description><Version>0.1</Version><Image>Images\spyder.png</Image><Author>MarkGang</Author><Company>BUAA</Company><Date>01/14/2017</Date><Targets><Target name="Desktop" version="10.2" /></Targets><AddIn language="PYTHON" library="mg_ROI_addin.py" namespace="mg_ROI_addin"><ArcMap>
+    <Commands>
+        <Button caption="CreateShp" category="Python Addin - mg" class="ButtonClass_CreateShp" id="mg_ROI_addin.button_create_shp" image="Images\scipy.png" message="" tip="&#21019;&#24314;&#19968;&#20010;Shp&#25991;&#20214;"><Help heading="" /></Button>
+        <Button caption="OpenShp" category="Python Addin - mg" class="ButtonClass_OpenShp" id="mg_ROI_addin.button_open_shp" image="Images\OpenSelectedItemHS.png" message="" tip="&#25171;&#24320;Shp&#25991;&#20214;"><Help heading="" /></Button>
+        <Button caption="OpenTxt" category="Python Addin - mg" class="ButtonClass_OpenTxt" id="mg_ROI_addin.button_open_txt" image="Images\environ.png" message="" tip="&#25171;&#24320;txt&#25991;&#26412;"><Help heading="" /></Button>
+        <Button caption="SaveTxt" category="Python Addin - mg" class="ButtonClass_SaveTxt" id="mg_ROI_addin.button_save_txt" image="Images\filesave.png" message="" tip="&#20445;&#23384;&#20026;txt"><Help heading="" /></Button>
+        <Button caption="ChooseEnable" category="Python Addin - mg" class="ButtonClass_ChooseEnable" id="mg_ROI_addin.button_choose_enable" image="Images\CheckMixed.bmp" message="" tip="&#30830;&#23450;&#26159;&#21542;&#33021;&#36873;&#25321;ROI"><Help heading="" /></Button>
+        <Button caption="Delete" category="Python Addin - mg" class="ButtonClass_Delete" id="mg_ROI_addin.button_delete" image="Images\fileclose.png" message="" tip="&#21024;&#38500;&#36873;&#20013;&#30340;ROI"><Help heading="" /></Button>
+        <ComboBox caption="Type" category="Python Addin - mg" class="ComboBoxClass_Type" id="mg_ROI_addin.combobox_type" itemSizeString="WWWWWW" message="" rows="4" sizeString="WWWWWW" tip="&#30446;&#26631;&#31867;&#22411;"><Help heading="" /></ComboBox>
+        <Tool caption="Tool_ROI" category="Python Addin - mg" class="ToolClass_ROI" id="mg_ROI_addin.tool_ROI" image="Images\pot.png" message="" tip="ROI&#25805;&#20316;&#24037;&#20855;"><Help heading="" /></Tool>
+        <Button caption="Process" category="Python Addin - mg" class="ButtonClass_Process" id="mg_ROI_addin.button_process" image="Images\Filter2HS.png" message="" tip="&#22788;&#29702;"><Help heading="" /></Button>
+        <Button caption="About" category="Python Addin - mg" class="ButtonClass_About" id="mg_ROI_addin.button_about" image="Images\readme.png" message="" tip="&#24403;&#21069;&#20449;&#24687;"><Help heading="" /></Button>
+        </Commands>
+    <Extensions>
+        </Extensions>
+    <Toolbars>
+        <Toolbar caption="Toolbar_mg" category="Python Addin - mg" id="mg_ROI_addin.toolbar" showInitially="true"><Items><Button refID="mg_ROI_addin.button_create_shp" /><Button refID="mg_ROI_addin.button_open_shp" /><Button refID="mg_ROI_addin.button_open_txt" /><Button refID="mg_ROI_addin.button_save_txt" /><Button refID="mg_ROI_addin.button_choose_enable" /><Button refID="mg_ROI_addin.button_delete" /><ComboBox refID="mg_ROI_addin.combobox_type" /><Tool refID="mg_ROI_addin.tool_ROI" /><Button refID="mg_ROI_addin.button_process" /><Button refID="mg_ROI_addin.button_about" /></Items></Toolbar>
+        </Toolbars>
+    <Menus>
+        </Menus>
+    </ArcMap></AddIn></ESRI.Configuration>
